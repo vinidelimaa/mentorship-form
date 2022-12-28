@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mentorship</title>
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <h1>
+                Mentorship
+            </h1>
+            <p>
+                Fill out the form below 
+                to schedule your mentorship
+            </p>
+        </header>
+
+
+        <form 
+        id="my-form" 
+        method="post"
+        autocomplete="on">
+
+
+            <fieldset>
+
+                <legend>
+                    Personal information
+                </legend>
+
+                <section>
+                    <div class="col-2">
+                        <div class="input-wrapper">
+                            <label for="user-name">
+                                Name
+                            </label>
+                            <input
+                            type="text"
+                            id="user-name"
+                            placeholder="your name"
+                            required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="user-last-name">
+                                Last name
+                            </label>
+                            <input
+                            type="text"
+                            id="user-last-name"
+                            placeholder="your last name"
+                            required>
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="user-email">
+                            Email
+                            <span>
+                                (enter a valid email address)
+                            </span>
+                        </label>
+                        <input
+                        type="email"
+                        id="user-email"
+                        placeholder="your email"
+                        required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="user-password">
+                            Password
+                            <span>
+                                (minimum 8 characters)
+                            </span>
+                        </label>
+                        <input
+                        type="password"
+                        id="user-password"
+                        placeholder="your password"
+                        required>
+                    </div>
+                </section>
+                
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    Mentor information
+                </legend>
+
+                <div class="input-wrapper">
+                    <label for="mentor-name">
+                        Mentor name 
+                    </label>
+                    <input 
+                    type="text" 
+                    id="mentor-name"
+                    placeholder="your mentor's name"
+                    required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    Your available time
+                </legend>
+
+                <section class="availability">
+
+                    <h2>
+                        First mentorship
+                    </h2>
+
+                    <div class="col-3">
+                        <div class="input-wrapper">
+                            <label for="event-date">Date</label>
+                            <input
+                            type="date"
+                            id="user-date"
+                            placeholder="" />
+                        </div>
+                
+                        <div class="input-wrapper">
+                            <label for="user-begin">From</label>
+                            <input
+                            type="time"
+                            id="user-begin"
+                            placeholder="" />
+                        </div>
+                
+                        <div class="input-wrapper">
+                            <label for="user-end">To</label>
+                            <input
+                            type="time"
+                            id="user-end"
+                            placeholder="" />
+                        </div>
+                    </div>
+
+                    <h2>
+                        Second mentorship
+                    </h2>
+
+                    <div class="col-3">
+                        <div class="input-wrapper">
+                            <label for="event-date">Date</label>
+                            <input
+                            type="date"
+                            id="user-date"
+                            placeholder="" />
+                        </div>
+                
+                        <div class="input-wrapper">
+                            <label for="user-begin">From</label>
+                            <input
+                            type="time"
+                            id="user-begin"
+                            placeholder="" />
+                        </div>
+                
+                        <div class="input-wrapper">
+                            <label for="user-end">To</label>
+                            <input
+                            type="time"
+                            id="user-end"
+                            placeholder="" />
+                        </div>
+                    </div>
+                </section>
+
+            </fieldset>
+        </form>
+
+        <footer>
+            <button
+            form="my-form"
+            class="button">
+                Save
+            </button>
+        </footer>
+    </div>
+</body>
+</html>
